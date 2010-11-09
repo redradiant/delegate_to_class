@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "delegate_to_class"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Delegate calls on an object to its class is they exist.}
+    gem.description = %Q{Delegate calls on an object to its class is they exist.  That's it.}
     gem.email = "mlightner@gmail.com"
     gem.homepage = "https://github.com/redradiant/delegate_to_class"
     gem.authors = ["Matt Lightner"]
