@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Lightner"]
   s.date = %q{2010-11-09}
-  s.description = %q{TODO: longer description of your gem}
-  s.email = %q{mlightner@gmail.com}
+  s.description = %q{Delegate calls on an object to its class is they exist.}
+  s.email = %q{matt@redradiant.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"

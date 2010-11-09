@@ -1,6 +1,21 @@
 = delegate_to_class
 
-Delegates missing methods on an object to its class if they exist.
+# Delegates missing methods on an object to its class if they exist.
+
+require 'delegate_to'class'
+
+class Foo
+
+  include DelegateToClass
+
+  def human_name
+    "A Foo"
+  end
+
+end
+
+a = Foo.new
+a.human_name # => "A Foo"
 
 == Note on Patches/Pull Requests
  
