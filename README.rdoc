@@ -1,6 +1,6 @@
 = delegate_to_class
 
-Description goes here.
+Delegates missing methods on an object to its class if they exist.
 
 == Note on Patches/Pull Requests
  
