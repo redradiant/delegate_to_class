@@ -8,7 +8,7 @@ Delegates missing methods on an object to its class if they exist.
 
     include DelegateToClass
 
-    def human_name
+    def self.human_name
       "A Foo"
     end
 
