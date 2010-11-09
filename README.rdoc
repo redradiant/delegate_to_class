@@ -17,6 +17,8 @@ Delegates missing methods on an object to its class if they exist.
   a = Foo.new
   a.human_name # => "A Foo"
 
+You can also specify an explicit receiver by defining the instance method "delegation_receiver".
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
