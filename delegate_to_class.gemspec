@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{delegate_to_class}
-  s.version = ""
+  s.version = "1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Lightner"]
   s.date = %q{2010-11-09}
-  s.description = %q{TODO: longer description of your gem}
-  s.email = %q{mlightner@gmail.com}
+  s.description = %q{Delegate calls on an object to its class is they exist.}
+  s.email = %q{matt@redradiant.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -22,8 +22,6 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
-     "VERSION",
-     "delegate_to_class.gemspec",
      "lib/delegate_to_class.rb",
      "test/helper.rb",
      "test/test_delegate_to_class.rb"
@@ -38,14 +36,5 @@ Gem::Specification.new do |s|
      "test/test_delegate_to_class.rb"
   ]
 
-  if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
-  end
 end
 
